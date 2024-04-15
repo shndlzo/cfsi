@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <title>Children of Fatima School, Inc.</title>
+  <link rel="icon" href="images/logo 2.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">  
+  <link rel="stylesheet" href="css/nice-select.css">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+</head>
+
+<body class="main-layout">
+  <header>
+    <div class="header-top">
+      <div class="header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-3 col logo_section">
+              <div class="full">
+                <div class="center-desk">
+                  <div class="logo">
+                    <a href="index.html"><img src="images/logo3.png" alt="#" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-10 col-lg-8 col-md-8 col-sm-9">
+              <div class="header_information">
+               <div class="menu-area">
+                <div class="limit-box">
+                  <nav class="main-menu ">
+                    <ul class="menu-area-main">
+                      <li> <a href="index.html">Home</a> </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          About
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="History.html">History</a>
+                          <a class="dropdown-item" href="Hymn.html">Hymn</a>
+                          <a class="dropdown-item" href="more.html">CFSI VISION/MISSION/PHILOSOPY</a>
+                          <a class="dropdown-item" href="Uniform.html">School Uniform</a>
+                        </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Strands
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="ICT.html">ICT</a>
+                          <a class="dropdown-item" href="ABM.html">ABM</a>
+                          <a class="dropdown-item" href="HUMSS.html">HUMSS</a>
+                        </div>
+                      </li>
+                      <li> <a href="index.html#contact">Contact</a> </li>
+                      <li> <a href="enrollment.html">Apply Now</a> </li>
+                     </ul>
+                   </nav>
+                 </div>
+               </div>  
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </header>
+
+  <br><br><br><br><br><br>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="titlepage">
+        <h2>Senior High School Enrollment Form</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="enrollment-form">
+    <form id="enrollmentForm" method="POST" action="https://script.google.com/macros/s/AKfycbxfZhIMHT6_YSkg3i-T1PgMFDZSU-rOsHMwbgKxrku3ozhiiU2FjR3KPoK0_ZzBcyFX/exec" onsubmit="return submitForm()">
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" required>
+
+      <label for="date">Date of Birth:</label>
+      <input type="text" id="date" name="date" required>
+
+      <label for="age">Age: </label>
+      <input type="number" id="age" name="age" required>
+
+      <label for="Gender">Gender:</label>
+      <input type="text" id="Gender" name="Gender" required>
+      
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" required>
+
+      <label for="religion">Religion:</label>
+      <input type="text" id="religion" name="religion" required>
+
+      <label for="Nationality">Nationality:</label>
+      <input type="text" id="Nationality" name="Nationality" required>
+
+      <label for="fatherName">Father's Name:</label>
+      <input type="text" id="fatherName" name="fatherName" required>
+
+      <label for="fatherOccupation">Father's Occupation:</label>
+      <input type="text" id="fatherOccupation" name="fatherOccupation" required>
+
+      <label for="motherName">Mother's Name:</label>
+      <input type="text" id="motherName" name="motherName" required>
+
+      <label for="motherOccupation">Mother's Occupation:</label>
+      <input type="text" id="motherOccupation" name="motherOccupation" required>
+
+      <label for="guardianName">Guardian's Name:</label>
+      <input type="text" id="guardianName" name="guardianName" required>
+
+      <label for="guardianOccupation">Guardian's Occupation:</label>
+      <input type="text" id="guardianOccupation" name="guardianOccupation" required>
+
+      <label for="parentContact1">Parent/Guardian Contact No. 1:</label>
+      <input type="text" id="parentContact1" name="parentContact1" pattern="[0-9]{11}" placeholder="Enter 11-digit contact number" required>
+
+      <label for="parentContact2">Parent/Guardian Contact No. 2:</label>
+      <input type="text" id="parentContact2" name="parentContact2" pattern="[0-9]{11}" placeholder="Enter 11-digit contact number" required>
+
+      <label for="lastSchool">Last School Attended:</label>
+      <input type="text" id="lastSchool" name="lastSchool" required>
+
+      <label for="schoolAddress">School Address:</label>
+      <input type="text" id="schoolAddress" name="schoolAddress" required>
+
+      <label for="grade10Adviser">Grade 10 Adviser:</label>
+      <input type="text" id="grade10Adviser" name="grade10Adviser" required>
+
+      <label for="section">Section:</label>
+      <input type="text" id="section" name="section" required>
+
+      <label for="lrn">LRN (Learner Reference Number):</label>
+      <input type="text" id="lrn" name="lrn" maxlength="12" required>
+
+      <label for="Prog">Senior High School Program:</label>
+      <input type="text" id="Prog" name="Prog" required>
+
+      <label for="agreementCheckbox1">I hereby agree to abide by the registration rules/undertaking printed on this registration card, to pay my tuition and other fees, and to comply with all school rules and regulations. This is with my consent and guarantees:</label>
+      <input type="checkbox" id="agreementCheckbox1" name="agreementCheckbox1" required>
+      <label for="agreementCheckbox1">I agree to the terms and conditions</label>
+
+      <label for="agreementCheckbox2">1. We hereby expressly agree to the following conditions such as, but not limited to: To comply with the needed admission requirements. (Student with incomplete Admission Requirements will be considered Temporary Enrolled. Student is given 2 months from the opening of classes or the entire first grading to complete all admission and academic requirements, especially the SF 10/Form 137. An affidavit of understanding/undertaking is submitted, signed by the Parent Guardian in order to be temporarily enrolled. Upon complete submission of requirements, the student shall be tagged as officially enrolled. Otherwise, the student cannot be officially promoted to a higher grade level and cannot officially graduate. The school will not release official documents such as SF 9. SF 10, Certificate of Completion and other pertinent documents Presented admission requirements must be true & correct, in case a document is falsified, enrolment is VOID).
+        <br>2. To give consent to CFSI to collect and process all personal information needed for school operations both in digital and printed materials provided these information will be treated confidential in compliance to Data Privacy Act of 2012. However may be shared only to authorized personnel. (The collected personal information may help the school in understanding its data subjects and may process and share them to the school's authorized representatives namely: School Heads, Registrar, Accounting Staff. Guidance Advocate, Librarian, as well as to Academic and Level Coordinators, Class Advisers and Subject Teachers, relative to the operations of the institution).
+        <br>3. To pay for the required Registration Fee (non-refundable) and make school payments only to authorized school cashier and to request for receipts, otherwise, payments made to unauthorized persons will not be honored; To be updated on all payments of fees, obligations, other charges as prescribed and not to be given his/her periodic/long/final test unless he/she is up-to-date in his/her payments; and not to ask for reimbursement of any payments voluntary or otherwise he/she gave/donated to the school; To pay for the current whole year fees and other charges if he/she transfers or otherwise withdraw, per Department of Education regulation as follows: "The student may be charged all the school fees in full if he/she withdraw any time after the second week of classes."
+        <br>4. To be officially dropped, suspended or expelled if our learner is found to be engaged in bullying and actively participates in any
+        boycott or disruption of classes; or disturb the peace and tranquility of the school or have academic deficiency or violate school rules of discipline; or commit any act unfavorable to the interest of CFSI.
+        <br> 5. To return on demand all books or properties he/she rented or borrowed; To pay for any school property that he/she lost damaged or destroyed intentionally or unintentionally.
+        <br>6. To adhere to the visitation policy of parents/guardians/visitors as well as the proper dress code inside the campus.
+        <br>7. To uphold the ideals of Children of Fatima School, Inc. in achieving its philosophy, vision, mission, goals and objectives as wells as its core values. To actively support the institution and all stakeholders as well as maintaining constant open communication to all school authorities for any queries/concern.
+        <br>8. To strictly observe/follow the rules and regulations mandated in the student's handbook/diary and other rules that school authorities may formulate from time to time.</label>
+      <input type="checkbox" id="agreementCheckbox2" name="agreementCheckbox2" required>
+      <label for="agreementCheckbox2">I agree to the privacy policy</label>
+
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+        <input type="submit" class="send" value="Submit">
+      </div>
+    </form>
+  </div>
+
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+            <div class="row">
+              <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 ">
+                <div class="address">
+                  <h3>Contact us</h3>
+                  <ul class="loca">
+                    <li><a href="#"><img src="icon/loc.png" alt="#" /></a> Mabiga, Mabalacat City, <br> Pampanga</li>
+                    <li><a href="#"><img src="icon/email.png" alt="#" /></a>cfsi@gmail.com </li>
+                    <li><a href="#"><img src="icon/call.png" alt="#" /></a>091234568910 </li>
+                  </ul>
+                  <ul class="social_link">
+                    <li><a href="#"><img src="icon/fb.png"></a></li>
+                    <li><a href="#"><img src="icon/tw.png"></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="address">
+                  <h3>Campuses</h3>
+                  <ul class="Menu_footer">
+                    <li><a href="https://maps.app.goo.gl/85WeKCoC1GWSVRrr6" target="_blank">Dau, Mabalacat City, Pampanga.</a> </li>
+                    <li><a href="https://maps.app.goo.gl/X5Yiand89NfFedrb7" target="_blank">SHS Mabiga, Mabalacat City, Pampanga</a> </li>
+                    <li><a href="https://maps.app.goo.gl/ATV5BzsDvMmLUFe58" target="_blank">San Francisco, Mabalacat City, Pampanga</a> </li>
+                    <li><a href="https://maps.app.goo.gl/E1Vk7mk3imX2nKEG9" target="_blank">Sto. Tomas, Pampanga</a> </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="address">
+                  <h3>Information</h3>
+                  <ul class="Links_footer">
+                    <li><a href="enrollment.html" target="_blank"> Admission</a> </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 col-sm-6 ">
+                <div class="address">
+                  <a href="index.html"> <img src="images/logo 1.png" alt="logo"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <div class="container">
+            <p>© 2024. Children Of Fatima School, Inc. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/jquery-3.0.0.min.js"></script>
+  <script src="js/plugin.js"></script>
+  <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+
+  <script>
+
+    function submitForm() {
+      var formData = $('#enrollmentForm').serialize();
+      $.ajax({
+        url: 'https://script.google.com/macros/s/AKfycbxfZhIMHT6_YSkg3i-T1PgMFDZSU-rOsHMwbgKxrku3ozhiiU2FjR3KPoK0_ZzBcyFX/exec',
+        data: formData,
+        type: 'POST',
+        success: function(response) {
+          // Check if the response contains the word "Success" to indicate successful submission
+          if (response.includes("Success")) {
+            // Redirect to "Thankyou.html" after successful registration
+            window.location.replace('Thankyou.html');
+          } else {
+            console.log('Error submitting form:', response);
+            alert('Error submitting form. Please try again later.');
+          }
+        },
+        error: function(xhr, status, error) {
+          console.log('Error submitting form:', error);
+          alert('Error submitting form. Please try again later.');
+        }
+      });
+      return false;
+    }
+  </script>
+</body>
+</html>
